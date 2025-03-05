@@ -59,7 +59,14 @@ document.addEventListener('DOMContentLoaded', () => {
     const regSeatsList = [];
     let total = 0;
 
-    moveSlider(0);
+    if (window.innerWidth >= 1200) {
+        currentIndex = 2;
+        moveSlider(2);
+    }
+    else {
+        currentIndex = 0;
+        moveSlider(0);
+    }
 
     btnRead.addEventListener('click', () => {
         if (dots.style.display === 'none') {
