@@ -1,4 +1,4 @@
-Link: https://john-nahan.github.io/cinema-mobile-application/
+Link to the app: https://john-nahan.github.io/cinema-mobile-application/
 
 **Ticket booking mobile application**
  - A responsive mobile application lets users browse movie showtimes using a carousel, select seats from a seating chart, and generate a mobile ticket for a seamless booking experience.
