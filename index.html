@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket Booking</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <link rel="stylesheet" href="assets/styles.css">
+    <script src="assets/MOCK_DATA_SEATS.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="date-time-container d-flex">
+            <div class="details">
+                <div class="movie-content">
+                    <h2>Doctor Strange</h2>
+                    <h3>In the Multiverse of Madness</h3>
+                    <p>Doctor Strange teams up with a mysterious teenage girl from his dreams who can travel across multiverses
+                        <span id="dots">...</span>
+                        <span id="more">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias quo laudantium facilis autem veniam itaque at, magnam corporis odit iste!</span>
+                        <button id="read-more-btn">read more</button>
+                    </p>
+                </div>
+
+                <div class="enquery-txt">
+                    <h2>Select Date and Time</h2>
+                </div>
+
+                <div class="carousel">
+                    <div class="left"></div>
+                    <div class="item-slider">
+                        <div class="item-container"></div>
+                    </div>
+                    <div class="right"></div>
+                </div>
+
+                <div class="reservation-btn">
+                    <button>Reservation</button>
+                </div>
+            </div>
+        </div>
+        <div class="seats-container hide">
+            <div class="seats-container-title">
+                <div class="back-to-date-time"></div>
+                <div><p>Choose your seats</p></div>
+            </div>
+            <div><hr></div>
+            <div class="line"></div>
+            <div class="seat-map-container">
+                <div class="seat-map"></div>
+            </div>
+            <div class="seat-status">
+                <div class="seat-available">
+                    <div></div>
+                    <span>Available</span>
+                </div>
+                <div class="seat-reserved">
+                    <div></div>
+                    <span>Reserved</span>
+                </div>
+                <div class="seat-selected">
+                    <div></div>
+                    <span>Selected</span>
+                </div>
+            </div>
+            <div class="ticket-seats-container">
+                <div class="ticket-info">
+                    <div class="ticket-date-time">
+                        <div></div>
+                        <span>June 21st, 2023</span>
+                        <div></div>
+                        <span>6 p.m</span>
+                    </div>
+                    <div class="ticket-seats">
+                        <div class="ticket-seats-vip">
+                            <div></div>
+                            <span>VIP section</span>
+                            <div></div>
+                            <span class="vip-seats">Seats </span>
+                        </div>
+                        <div class="ticket-seats-reg">
+                            <div></div>
+                            <span>Reg Section</span>
+                            <div></div>
+                            <span class="reg-seats">Seats </span>
+                        </div>
+                    </div>
+                    <div class="ticket-total-price">
+                        <div></div>
+                        <span class="total">Total: $0</span>
+                    </div>
+                </div>
+                <div class="buy-btn"><div><button>Buy</button></div></div>
+            </div>
+        </div>
+        <div class="tickets-container hide">
+            <div class="tickets-container-title">
+                <div class="back-to-seats-map"></div>
+                <div><p>Mobile Ticket</p></div>
+            </div>
+            <div><hr></div>
+            <div class="description">
+                <div>
+                    <p>Once you buy a movie ticket, simply scan the barcode to watch your movie.</p>
+                </div>
+            </div>
+            <div class="selected-ticket-container">
+                <div class="selected-ticket"></div>
+                <div class="selected-ticket"></div>
+                <div class="selected-ticket main-ticket">
+                    <div class="selected-ticket-info">
+                        <div class="selected-date-time">
+                            <div class="selected-date"><span>Date: June 21st</span></div>
+                            <div class="selected-time"><span>Time: 6 p.m</span></div>
+                        </div>
+                        <div class="selected-seats">
+                        </div>
+                        <div class="barcode"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/scripts.js"></script>
+</body>
+</html>
